@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027CA471A5342D9D831895410495EE51 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F08024562D6027017F233C744DDA01 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		08E21DA5E878DED25EF283EBD98E25A4 /* Pods-MMPullSwipeDismiss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D4F1B75124F8A65C53D211C221304 /* Pods-MMPullSwipeDismiss-dummy.m */; };
+		0A449D9876FB5AABA25A730F95AC7A4D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B0C0267711DA014B43709CDB786DA /* Regex.swift */; };
+		0A69B0DEFD6FD1733EE1947354C4405D /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4541BB43DDA48C23790DAB022AF2DA5 /* HeroCoreAnimationViewContext.swift */; };
+		131BD0796B5EF130D3C7224265B5E8C1 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2BD447B5798BA4524B365883FE601 /* MatchPreprocessor.swift */; };
+		131BD954572AE0F9B1EF5F12B04BD724 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41497F16575FE04DEF4FC91F46A04BD9 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16ED39F2E1F2201AF2B28557D19D3B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		204D3520639A613718C7CDE55BF72F08 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21376CD89865272536248746715AF31B /* HeroTargetState.swift */; };
+		25D582C7BC726A599A9617E36F915713 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045234FCD1936AA3F16AA1FADF512F7 /* UIView+Hero.swift */; };
+		2CF3B69D4CB67F5879FE1DB227C9AF64 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4411728AD8AFEDBF541268BEEAAFE159 /* Lexer.swift */; };
+		352F03C98B59DB3789040D4B0D5C378A /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C09F4D73A1B34CE453D256D595B086 /* HeroTransition+CustomTransition.swift */; };
+		36EE12CB455ACF1FD3C92E8DD64F78A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		37192B729206BAF40E1D706F618E1382 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7AB587DB0A20E6E5D1F83ADD3053E /* UIViewController+Hero.swift */; };
+		3AE3FF8B91E9532FF99910BF956B9EE4 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5ECF7ED9680AF14068D33E7E5B79D3 /* HeroTransition.swift */; };
+		3DD54CC124181B51D31CBD9B0F4168F7 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34537C86D2518C0E6DD92F95DC91AB /* HeroModifier+HeroStringConvertible.swift */; };
+		49AE593D92F5CBE570CF41E38452EE5B /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903FAEBD4138C4AFA533BB1C5756D43 /* Hero-dummy.m */; };
+		563D01EC84967B65555F62D8CBB3E345 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90BD4D7773ADB50C8C62D86694C41DD /* HeroViewPropertyViewContext.swift */; };
+		56983408D1FF5A0551B0F06C72C448BD /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0F129F07C75716917D3ABE522C405F /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		5808A296321FB1C7BFDC15FCB88630B9 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A276A5AA6BB3CCC162825C2C5382A2 /* HeroTransition+Complete.swift */; };
+		61B74C105955C9116ABD59E2863FD8D4 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB12DA758605C5D323725E7D6BECAC8 /* HeroProgressRunner.swift */; };
+		6222A7FA01B835E09AAA4FA306164B35 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273EAF628754B65CF2116F8C05C599E /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		71161C45211D45B28515CB86A9E1802D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6A326B7A87D1E1DC47FDCCCA2B2DD /* HeroContext.swift */; };
+		747D046BF6CCD6B22DE448A319259F4E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96CDE7E9BB79E526F3EBB12D866CF /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		77B0A88DF25424192EB6B5BF4126595F /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A1402F4EBCE48E1F312265C7FE716 /* CG+Hero.swift */; };
+		7CED6E6CC35E080E1F94D9556FB54516 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064FF6A3F71FCDD2D77E22F1731E132 /* HeroTransition+Animate.swift */; };
+		7E504CF40EDABF5AA222A875D9BC7ACA /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586579AE9983F1F11110BDB95300F4DD /* CascadePreprocessor.swift */; };
+		7E505B7D4AAC3DB7FD9939C6180BF6EC /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D683BA4CA3DB42BBCFDB2D6B19D3B9 /* HeroPlugin.swift */; };
+		88E51695CDC001BC4F639B2A593F18C7 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E058777E89C6FF2031074094669A13 /* Nodes.swift */; };
+		8BC8035B9AB727C3410327F348C925A3 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140A325560BABD0017CE54869E83A6D2 /* UIKit+Hero.swift */; };
+		8EDE65C78F8555B1A20FAA87AA7BB14B /* Pods-MMPullSwipeDismissUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B7D8EEE64D7AB349AE82814806E35 /* Pods-MMPullSwipeDismissUITests-dummy.m */; };
+		8F0FF5F0D7BD5BBCC8A881D7A521E7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		92631292943CAC06DA1F7D387F3C5148 /* Pods-MMPullSwipeDismissUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAF02B098CB45BF54CE91F3460FBE48 /* Pods-MMPullSwipeDismissUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95AD4CC1B9F8DD2A408EF78242D17275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		97E12FCF1B28A57823ADD1E597654152 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182BF7EFC5B4A6EA71FF00032A8C95D /* SourcePreprocessor.swift */; };
+		9903452D1A2F79036069ED51C4E815B9 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818751E0AD9DB28E73C3719ABD1A0FC /* HeroAnimatorViewContext.swift */; };
+		9A865AC86E28977196892F43C8CE7204 /* Pods-MMPullSwipeDismiss-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6759BD867FB878B341B632B32C15A5 /* Pods-MMPullSwipeDismiss-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2088FBF674C01D2BAF903FEF262A3C /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9E8711B5580091663540DB56C6E1B /* HeroDefaultAnimator.swift */; };
+		9D69B2F3DFD066603CDA5D5E8504754A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A1E8E5304035286EB7475E890FDAD160 /* Pods-MMPullSwipeDismissTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1873CC0BA47E6000121F0DA0FF262955 /* Pods-MMPullSwipeDismissTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57F7AE8A5556A3D64F55C382D1DAAB0 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD96A360FDAC57BDF7DB9710732DB34 /* Array+HeroModifier.swift */; };
+		A795AE72B5EE8756ABF434D88933FC9B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA301A6760B268189A738C595A01A66 /* Parser.swift */; };
+		A99B729B07E3C22CA75E3A9D1C177E80 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3E3D60981589FE282271FC9517100 /* DispatchQueue+Hero.swift */; };
+		AA8E9CFD62CDE580E7E1EC264551F38B /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9AEAC3AAF4F978A7D73142DE8C7D4 /* HeroViewControllerDelegate.swift */; };
+		AF0A61424C9BF4646490D9BD1617E643 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1BE50C73F2E21DFC7880510D7BB3A /* HeroTransition+Start.swift */; };
+		B9F5BBA79C9EBDBA4CE8C5A880CBE225 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CFA0D3BAB8AC1E99A8BB1D71256BF /* ConditionalPreprocessor.swift */; };
+		C642407E48D361352456FCFEBCC8ED42 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39C14A0EAA5054D560F1D6EE55A3AE /* HeroTransitionState.swift */; };
+		C67899E2E59EB7BBD1D068A3026E9BED /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD054ED88A59386812C2E47CDA2086F /* HeroTransition+Interactive.swift */; };
+		CF845EB085D70097F1EB8773318B0CF1 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F007E1E811E64FD6AE138446F24EED /* HeroDebugPlugin.swift */; };
+		D6D047A2C02C9C8F7B6F021B524CF348 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA817442385B01D137308FC010EF602 /* BasePreprocessor.swift */; };
+		D885B781E26415615CD22FE922BC1EE4 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC0C4266D945918AC811C3BC507B7B /* CALayer+Hero.swift */; };
+		D9AA99938F1EEA072FF32FA7F5F397D3 /* Pods-MMPullSwipeDismissTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E023FB35EC490236A22AF123ACE5F /* Pods-MMPullSwipeDismissTests-dummy.m */; };
+		E1004C8A59E38E2FEF3005D26DD274EA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68C4C242C8B0B2440A59401ADDBDAD /* HeroDebugView.swift */; };
+		EC8E0FBFF1C71C7DDE5D00C7F256E520 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072E66F74C69658E8680949FB73BA4B /* CAMediaTimingFunction+Hero.swift */; };
+		ED1C6E8669DC14BA45A27357DF7CEF6A /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FC9E8EC71F46CD44E6C3D517F07E4 /* HeroModifier.swift */; };
+		EF7A5C637E0EBCDE614DB920809819B2 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84A9267D857AE846DD38AFFF14AEC0 /* HeroStringConvertible.swift */; };
+		F2EB55C94CA30419C27C11BC2C2BD535 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC82AB5DFEA818BE231B3FCD8DF6480 /* HeroTypes.swift */; };
+		FABCE800A63BF5574D9A7A04E81E2F03 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF4BA4D0B3184568774C2F7FB25D5B /* DefaultAnimationPreprocessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45372F8D4AD3A83B695AA1673CA17148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C26A1A65032AB1408D01604F119111;
+			remoteInfo = Hero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F7AB587DB0A20E6E5D1F83ADD3053E /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		041B0C0267711DA014B43709CDB786DA /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		0818751E0AD9DB28E73C3719ABD1A0FC /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		08F355711F0DC921F4239FC7A549F17A /* Pods-MMPullSwipeDismiss-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPullSwipeDismiss-resources.sh"; sourceTree = "<group>"; };
+		0B9A3E5B3F428A318A1205D5BD3F8126 /* Pods-MMPullSwipeDismiss-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPullSwipeDismiss-frameworks.sh"; sourceTree = "<group>"; };
+		0CA301A6760B268189A738C595A01A66 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		140A325560BABD0017CE54869E83A6D2 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		148B1126642930ED2C01F56C79C6867A /* Pods-MMPullSwipeDismissTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPullSwipeDismissTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15D683BA4CA3DB42BBCFDB2D6B19D3B9 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		16D8B1CC75435258C19355FBDC703E92 /* Pods-MMPullSwipeDismissUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPullSwipeDismissUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1873CC0BA47E6000121F0DA0FF262955 /* Pods-MMPullSwipeDismissTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPullSwipeDismissTests-umbrella.h"; sourceTree = "<group>"; };
+		19AFE5CFF6C7C8512A22A7A952F128F5 /* Pods-MMPullSwipeDismissUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMPullSwipeDismissUITests.modulemap"; sourceTree = "<group>"; };
+		1BD054ED88A59386812C2E47CDA2086F /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		2064FF6A3F71FCDD2D77E22F1731E132 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		21376CD89865272536248746715AF31B /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		254B7D8EEE64D7AB349AE82814806E35 /* Pods-MMPullSwipeDismissUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPullSwipeDismissUITests-dummy.m"; sourceTree = "<group>"; };
+		28A276A5AA6BB3CCC162825C2C5382A2 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		2D5D83E34C21075FB5E79047B1FE2E2D /* Pods-MMPullSwipeDismissTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPullSwipeDismissTests.release.xcconfig"; sourceTree = "<group>"; };
+		3045234FCD1936AA3F16AA1FADF512F7 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		322E023FB35EC490236A22AF123ACE5F /* Pods-MMPullSwipeDismissTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPullSwipeDismissTests-dummy.m"; sourceTree = "<group>"; };
+		3565824A78CD231BD5AA565AEB4959BF /* Pods-MMPullSwipeDismiss-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPullSwipeDismiss-acknowledgements.plist"; sourceTree = "<group>"; };
+		364D3C1170C01347C0072721F68101B1 /* Pods-MMPullSwipeDismiss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPullSwipeDismiss.release.xcconfig"; sourceTree = "<group>"; };
+		3B68C4C242C8B0B2440A59401ADDBDAD /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		41497F16575FE04DEF4FC91F46A04BD9 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		4411728AD8AFEDBF541268BEEAAFE159 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		44F762205D902FC168B3919177ECBB35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4562690E8C2AEAD6A100D92876B05C9F /* Pods-MMPullSwipeDismissUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPullSwipeDismissUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		474CFA0D3BAB8AC1E99A8BB1D71256BF /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		47A1BE50C73F2E21DFC7880510D7BB3A /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		4D8D4F1B75124F8A65C53D211C221304 /* Pods-MMPullSwipeDismiss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPullSwipeDismiss-dummy.m"; sourceTree = "<group>"; };
+		51E1BCF318F4C4749CA31292E4DDE51B /* Pods_MMPullSwipeDismissTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMPullSwipeDismissTests.framework; path = "Pods-MMPullSwipeDismissTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5273EAF628754B65CF2116F8C05C599E /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		54A2BD447B5798BA4524B365883FE601 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		55E0C0CB58574815A25FCBFCCFE5CDF5 /* Pods-MMPullSwipeDismiss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMPullSwipeDismiss.modulemap"; sourceTree = "<group>"; };
+		56F0D6BCB1275C996719A4366F9C5773 /* Pods_MMPullSwipeDismiss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMPullSwipeDismiss.framework; path = "Pods-MMPullSwipeDismiss.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586579AE9983F1F11110BDB95300F4DD /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		5903FAEBD4138C4AFA533BB1C5756D43 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		5DA817442385B01D137308FC010EF602 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		62F0CFFDD350A57E75090E57E3B1E143 /* Pods-MMPullSwipeDismissUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPullSwipeDismissUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		655FD33CD684A7B2717D97198A919772 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		6D3A1402F4EBCE48E1F312265C7FE716 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		7A3D0B3D231289AE733B30BD7ABBAE25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC82AB5DFEA818BE231B3FCD8DF6480 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		7FDC0C4266D945918AC811C3BC507B7B /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		8072E66F74C69658E8680949FB73BA4B /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		8182BF7EFC5B4A6EA71FF00032A8C95D /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		85A6448379595CA230FD3052F2A4F155 /* Pods-MMPullSwipeDismissTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPullSwipeDismissTests.debug.xcconfig"; sourceTree = "<group>"; };
+		862783A8ADE89B9BCAFDEC08E79980A3 /* Pods-MMPullSwipeDismissTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPullSwipeDismissTests-frameworks.sh"; sourceTree = "<group>"; };
+		89F08024562D6027017F233C744DDA01 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		8C2E45FC07D2F9EE172A7D16DBAD6335 /* Pods-MMPullSwipeDismissTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMPullSwipeDismissTests.modulemap"; sourceTree = "<group>"; };
+		8E834CDEAA8CCCA403B2205097B29A3E /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9429972A5FF4C7D99357AB4DF016C08E /* Pods-MMPullSwipeDismissUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPullSwipeDismissUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97AD9186F1163E5262AD282BEE87A77B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FC2A163F563EEDA3FE859C8A63223D /* Pods-MMPullSwipeDismissUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPullSwipeDismissUITests-resources.sh"; sourceTree = "<group>"; };
+		9AA6A326B7A87D1E1DC47FDCCCA2B2DD /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		9C0FC9E8EC71F46CD44E6C3D517F07E4 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		A10C52B473681C11B1DDA62E81BBB77B /* Pods-MMPullSwipeDismissTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPullSwipeDismissTests-resources.sh"; sourceTree = "<group>"; };
+		A1C09F4D73A1B34CE453D256D595B086 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		A56C7C78B36BD944D9B03BB73FEEEBAE /* Pods-MMPullSwipeDismissUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPullSwipeDismissUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9568281092A37F6153AC0022AA26031 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
+		AA34537C86D2518C0E6DD92F95DC91AB /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		ACA96CDE7E9BB79E526F3EBB12D866CF /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		ADAF02B098CB45BF54CE91F3460FBE48 /* Pods-MMPullSwipeDismissUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPullSwipeDismissUITests-umbrella.h"; sourceTree = "<group>"; };
+		B4C9AEAC3AAF4F978A7D73142DE8C7D4 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B90BD4D7773ADB50C8C62D86694C41DD /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		BAB83410CAB470E1338F30DB5E370836 /* Pods-MMPullSwipeDismiss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPullSwipeDismiss.debug.xcconfig"; sourceTree = "<group>"; };
+		C6D9E8711B5580091663540DB56C6E1B /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		C9F5028CC7D7EBEB7D12F89C10A6CAC1 /* Pods-MMPullSwipeDismissTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPullSwipeDismissTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE84A9267D857AE846DD38AFFF14AEC0 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		CF6759BD867FB878B341B632B32C15A5 /* Pods-MMPullSwipeDismiss-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPullSwipeDismiss-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9DF4BA4D0B3184568774C2F7FB25D5B /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		DB183AA81977AF6CCD503E53A66F64EB /* Pods-MMPullSwipeDismiss-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPullSwipeDismiss-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE5ECF7ED9680AF14068D33E7E5B79D3 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		DF39C14A0EAA5054D560F1D6EE55A3AE /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		E1F007E1E811E64FD6AE138446F24EED /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		EDB12DA758605C5D323725E7D6BECAC8 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		F4541BB43DDA48C23790DAB022AF2DA5 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		F4DA1B59A0DEABB8B3376F235F7FE4BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F3E3D60981589FE282271FC9517100 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		F567F6AFC1E15C3C85DEA8D790D1E75D /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E058777E89C6FF2031074094669A13 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		F9A789710C358AE1B54544CABB748E57 /* Pods_MMPullSwipeDismissUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMPullSwipeDismissUITests.framework; path = "Pods-MMPullSwipeDismissUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD96A360FDAC57BDF7DB9710732DB34 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		FB0F129F07C75716917D3ABE522C405F /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012A572DC468B2439D79103A8587CD41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EE12CB455ACF1FD3C92E8DD64F78A9 /* Foundation.framework in Frameworks */,
+				16ED39F2E1F2201AF2B28557D19D3B6F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB897B3567006E8ABED1AB9A8AE1477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D69B2F3DFD066603CDA5D5E8504754A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF23624BAD5CF58B4AF2792DFAEC821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0FF5F0D7BD5BBCC8A881D7A521E7DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE68851FFB96686680447389FDD7B91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AD4CC1B9F8DD2A408EF78242D17275 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013B43DD0B1F6EC889EAF64D9BD45951 /* Pods-MMPullSwipeDismiss */ = {
+			isa = PBXGroup;
+			children = (
+				44F762205D902FC168B3919177ECBB35 /* Info.plist */,
+				55E0C0CB58574815A25FCBFCCFE5CDF5 /* Pods-MMPullSwipeDismiss.modulemap */,
+				DB183AA81977AF6CCD503E53A66F64EB /* Pods-MMPullSwipeDismiss-acknowledgements.markdown */,
+				3565824A78CD231BD5AA565AEB4959BF /* Pods-MMPullSwipeDismiss-acknowledgements.plist */,
+				4D8D4F1B75124F8A65C53D211C221304 /* Pods-MMPullSwipeDismiss-dummy.m */,
+				0B9A3E5B3F428A318A1205D5BD3F8126 /* Pods-MMPullSwipeDismiss-frameworks.sh */,
+				08F355711F0DC921F4239FC7A549F17A /* Pods-MMPullSwipeDismiss-resources.sh */,
+				CF6759BD867FB878B341B632B32C15A5 /* Pods-MMPullSwipeDismiss-umbrella.h */,
+				BAB83410CAB470E1338F30DB5E370836 /* Pods-MMPullSwipeDismiss.debug.xcconfig */,
+				364D3C1170C01347C0072721F68101B1 /* Pods-MMPullSwipeDismiss.release.xcconfig */,
+			);
+			name = "Pods-MMPullSwipeDismiss";
+			path = "Target Support Files/Pods-MMPullSwipeDismiss";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C7BE43EBE0BD7DCF0AFFD88884E5ECB /* Pods-MMPullSwipeDismissUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97AD9186F1163E5262AD282BEE87A77B /* Info.plist */,
+				19AFE5CFF6C7C8512A22A7A952F128F5 /* Pods-MMPullSwipeDismissUITests.modulemap */,
+				4562690E8C2AEAD6A100D92876B05C9F /* Pods-MMPullSwipeDismissUITests-acknowledgements.markdown */,
+				9429972A5FF4C7D99357AB4DF016C08E /* Pods-MMPullSwipeDismissUITests-acknowledgements.plist */,
+				254B7D8EEE64D7AB349AE82814806E35 /* Pods-MMPullSwipeDismissUITests-dummy.m */,
+				16D8B1CC75435258C19355FBDC703E92 /* Pods-MMPullSwipeDismissUITests-frameworks.sh */,
+				99FC2A163F563EEDA3FE859C8A63223D /* Pods-MMPullSwipeDismissUITests-resources.sh */,
+				ADAF02B098CB45BF54CE91F3460FBE48 /* Pods-MMPullSwipeDismissUITests-umbrella.h */,
+				62F0CFFDD350A57E75090E57E3B1E143 /* Pods-MMPullSwipeDismissUITests.debug.xcconfig */,
+				A56C7C78B36BD944D9B03BB73FEEEBAE /* Pods-MMPullSwipeDismissUITests.release.xcconfig */,
+			);
+			name = "Pods-MMPullSwipeDismissUITests";
+			path = "Target Support Files/Pods-MMPullSwipeDismissUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7E4D40269916297DC3B6603241186E8A /* Pods */,
+				83090BD21FD4A2037562973051205E2A /* Products */,
+				9F45D7300D49AA31480508C43B441F42 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4D40269916297DC3B6603241186E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7C52280B990CF4D1353183928F148 /* Hero */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83090BD21FD4A2037562973051205E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F567F6AFC1E15C3C85DEA8D790D1E75D /* Hero.framework */,
+				56F0D6BCB1275C996719A4366F9C5773 /* Pods_MMPullSwipeDismiss.framework */,
+				51E1BCF318F4C4749CA31292E4DDE51B /* Pods_MMPullSwipeDismissTests.framework */,
+				F9A789710C358AE1B54544CABB748E57 /* Pods_MMPullSwipeDismissUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91AB5BD00DA391240E607EA5DB44C1B5 /* Pods-MMPullSwipeDismissTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DA1B59A0DEABB8B3376F235F7FE4BD /* Info.plist */,
+				8C2E45FC07D2F9EE172A7D16DBAD6335 /* Pods-MMPullSwipeDismissTests.modulemap */,
+				C9F5028CC7D7EBEB7D12F89C10A6CAC1 /* Pods-MMPullSwipeDismissTests-acknowledgements.markdown */,
+				148B1126642930ED2C01F56C79C6867A /* Pods-MMPullSwipeDismissTests-acknowledgements.plist */,
+				322E023FB35EC490236A22AF123ACE5F /* Pods-MMPullSwipeDismissTests-dummy.m */,
+				862783A8ADE89B9BCAFDEC08E79980A3 /* Pods-MMPullSwipeDismissTests-frameworks.sh */,
+				A10C52B473681C11B1DDA62E81BBB77B /* Pods-MMPullSwipeDismissTests-resources.sh */,
+				1873CC0BA47E6000121F0DA0FF262955 /* Pods-MMPullSwipeDismissTests-umbrella.h */,
+				85A6448379595CA230FD3052F2A4F155 /* Pods-MMPullSwipeDismissTests.debug.xcconfig */,
+				2D5D83E34C21075FB5E79047B1FE2E2D /* Pods-MMPullSwipeDismissTests.release.xcconfig */,
+			);
+			name = "Pods-MMPullSwipeDismissTests";
+			path = "Target Support Files/Pods-MMPullSwipeDismissTests";
+			sourceTree = "<group>";
+		};
+		9F45D7300D49AA31480508C43B441F42 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				013B43DD0B1F6EC889EAF64D9BD45951 /* Pods-MMPullSwipeDismiss */,
+				91AB5BD00DA391240E607EA5DB44C1B5 /* Pods-MMPullSwipeDismissTests */,
+				5C7BE43EBE0BD7DCF0AFFD88884E5ECB /* Pods-MMPullSwipeDismissUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B667DA6356CA48A87D0D7B6CB2F17754 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9568281092A37F6153AC0022AA26031 /* Hero.modulemap */,
+				655FD33CD684A7B2717D97198A919772 /* Hero.xcconfig */,
+				5903FAEBD4138C4AFA533BB1C5756D43 /* Hero-dummy.m */,
+				8E834CDEAA8CCCA403B2205097B29A3E /* Hero-prefix.pch */,
+				41497F16575FE04DEF4FC91F46A04BD9 /* Hero-umbrella.h */,
+				7A3D0B3D231289AE733B30BD7ABBAE25 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		F5D7C52280B990CF4D1353183928F148 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				FAD96A360FDAC57BDF7DB9710732DB34 /* Array+HeroModifier.swift */,
+				5DA817442385B01D137308FC010EF602 /* BasePreprocessor.swift */,
+				7FDC0C4266D945918AC811C3BC507B7B /* CALayer+Hero.swift */,
+				8072E66F74C69658E8680949FB73BA4B /* CAMediaTimingFunction+Hero.swift */,
+				586579AE9983F1F11110BDB95300F4DD /* CascadePreprocessor.swift */,
+				6D3A1402F4EBCE48E1F312265C7FE716 /* CG+Hero.swift */,
+				474CFA0D3BAB8AC1E99A8BB1D71256BF /* ConditionalPreprocessor.swift */,
+				D9DF4BA4D0B3184568774C2F7FB25D5B /* DefaultAnimationPreprocessor.swift */,
+				F4F3E3D60981589FE282271FC9517100 /* DispatchQueue+Hero.swift */,
+				0818751E0AD9DB28E73C3719ABD1A0FC /* HeroAnimatorViewContext.swift */,
+				9AA6A326B7A87D1E1DC47FDCCCA2B2DD /* HeroContext.swift */,
+				F4541BB43DDA48C23790DAB022AF2DA5 /* HeroCoreAnimationViewContext.swift */,
+				E1F007E1E811E64FD6AE138446F24EED /* HeroDebugPlugin.swift */,
+				3B68C4C242C8B0B2440A59401ADDBDAD /* HeroDebugView.swift */,
+				C6D9E8711B5580091663540DB56C6E1B /* HeroDefaultAnimator.swift */,
+				9C0FC9E8EC71F46CD44E6C3D517F07E4 /* HeroModifier.swift */,
+				AA34537C86D2518C0E6DD92F95DC91AB /* HeroModifier+HeroStringConvertible.swift */,
+				15D683BA4CA3DB42BBCFDB2D6B19D3B9 /* HeroPlugin.swift */,
+				EDB12DA758605C5D323725E7D6BECAC8 /* HeroProgressRunner.swift */,
+				CE84A9267D857AE846DD38AFFF14AEC0 /* HeroStringConvertible.swift */,
+				21376CD89865272536248746715AF31B /* HeroTargetState.swift */,
+				DE5ECF7ED9680AF14068D33E7E5B79D3 /* HeroTransition.swift */,
+				2064FF6A3F71FCDD2D77E22F1731E132 /* HeroTransition+Animate.swift */,
+				28A276A5AA6BB3CCC162825C2C5382A2 /* HeroTransition+Complete.swift */,
+				A1C09F4D73A1B34CE453D256D595B086 /* HeroTransition+CustomTransition.swift */,
+				1BD054ED88A59386812C2E47CDA2086F /* HeroTransition+Interactive.swift */,
+				47A1BE50C73F2E21DFC7880510D7BB3A /* HeroTransition+Start.swift */,
+				89F08024562D6027017F233C744DDA01 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				FB0F129F07C75716917D3ABE522C405F /* HeroTransition+UITabBarControllerDelegate.swift */,
+				5273EAF628754B65CF2116F8C05C599E /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				DF39C14A0EAA5054D560F1D6EE55A3AE /* HeroTransitionState.swift */,
+				7BC82AB5DFEA818BE231B3FCD8DF6480 /* HeroTypes.swift */,
+				B4C9AEAC3AAF4F978A7D73142DE8C7D4 /* HeroViewControllerDelegate.swift */,
+				B90BD4D7773ADB50C8C62D86694C41DD /* HeroViewPropertyViewContext.swift */,
+				ACA96CDE7E9BB79E526F3EBB12D866CF /* IgnoreSubviewModifiersPreprocessor.swift */,
+				4411728AD8AFEDBF541268BEEAAFE159 /* Lexer.swift */,
+				54A2BD447B5798BA4524B365883FE601 /* MatchPreprocessor.swift */,
+				F6E058777E89C6FF2031074094669A13 /* Nodes.swift */,
+				0CA301A6760B268189A738C595A01A66 /* Parser.swift */,
+				041B0C0267711DA014B43709CDB786DA /* Regex.swift */,
+				8182BF7EFC5B4A6EA71FF00032A8C95D /* SourcePreprocessor.swift */,
+				140A325560BABD0017CE54869E83A6D2 /* UIKit+Hero.swift */,
+				3045234FCD1936AA3F16AA1FADF512F7 /* UIView+Hero.swift */,
+				00F7AB587DB0A20E6E5D1F83ADD3053E /* UIViewController+Hero.swift */,
+				B667DA6356CA48A87D0D7B6CB2F17754 /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACB0E0EFB72CC6A3B4EBD8BF1609CDDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A865AC86E28977196892F43C8CE7204 /* Pods-MMPullSwipeDismiss-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB4924BB153B31FD39A4B2A09483F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131BD954572AE0F9B1EF5F12B04BD724 /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD30AE689D0BAC7FBF3A3F0F880CBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E8E5304035286EB7475E890FDAD160 /* Pods-MMPullSwipeDismissTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F50DCB68D724D5E38351B9337BE74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92631292943CAC06DA1F7D387F3C5148 /* Pods-MMPullSwipeDismissUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C4C09E418015AC39502AA6647C9EA8B /* Pods-MMPullSwipeDismissUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55849D9C4FB2098DD33157A79AD13E5F /* Build configuration list for PBXNativeTarget "Pods-MMPullSwipeDismissUITests" */;
+			buildPhases = (
+				8D8F494064AF0984144011DAACDE3704 /* Sources */,
+				EBF23624BAD5CF58B4AF2792DFAEC821 /* Frameworks */,
+				E25F50DCB68D724D5E38351B9337BE74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MMPullSwipeDismissUITests";
+			productName = "Pods-MMPullSwipeDismissUITests";
+			productReference = F9A789710C358AE1B54544CABB748E57 /* Pods_MMPullSwipeDismissUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83C26A1A65032AB1408D01604F119111 /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08B0DE972D9D1786334E52667434BF7 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				260E20B24F5D363B22B50076BFA4CBD5 /* Sources */,
+				012A572DC468B2439D79103A8587CD41 /* Frameworks */,
+				BDB4924BB153B31FD39A4B2A09483F6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = F567F6AFC1E15C3C85DEA8D790D1E75D /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE569B69716CB876E14CBEB77C017B04 /* Pods-MMPullSwipeDismiss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E912C0D5525EB3EDF3FDBF537276300E /* Build configuration list for PBXNativeTarget "Pods-MMPullSwipeDismiss" */;
+			buildPhases = (
+				B2CBA83BE005DE9A90816F73CD13329D /* Sources */,
+				EE68851FFB96686680447389FDD7B91E /* Frameworks */,
+				ACB0E0EFB72CC6A3B4EBD8BF1609CDDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F87575C8FAAFE7DC61FE5A585D4B25 /* PBXTargetDependency */,
+			);
+			name = "Pods-MMPullSwipeDismiss";
+			productName = "Pods-MMPullSwipeDismiss";
+			productReference = 56F0D6BCB1275C996719A4366F9C5773 /* Pods_MMPullSwipeDismiss.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E736442CA98661A71A50287D66D1955B /* Pods-MMPullSwipeDismissTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EDEB462E51AE59993FDF3713904381 /* Build configuration list for PBXNativeTarget "Pods-MMPullSwipeDismissTests" */;
+			buildPhases = (
+				8D3D0AB6025A712B1E254BC35F309ACA /* Sources */,
+				7BB897B3567006E8ABED1AB9A8AE1477 /* Frameworks */,
+				BEFD30AE689D0BAC7FBF3A3F0F880CBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MMPullSwipeDismissTests";
+			productName = "Pods-MMPullSwipeDismissTests";
+			productReference = 51E1BCF318F4C4749CA31292E4DDE51B /* Pods_MMPullSwipeDismissTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83090BD21FD4A2037562973051205E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C26A1A65032AB1408D01604F119111 /* Hero */,
+				DE569B69716CB876E14CBEB77C017B04 /* Pods-MMPullSwipeDismiss */,
+				E736442CA98661A71A50287D66D1955B /* Pods-MMPullSwipeDismissTests */,
+				1C4C09E418015AC39502AA6647C9EA8B /* Pods-MMPullSwipeDismissUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260E20B24F5D363B22B50076BFA4CBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57F7AE8A5556A3D64F55C382D1DAAB0 /* Array+HeroModifier.swift in Sources */,
+				D6D047A2C02C9C8F7B6F021B524CF348 /* BasePreprocessor.swift in Sources */,
+				D885B781E26415615CD22FE922BC1EE4 /* CALayer+Hero.swift in Sources */,
+				EC8E0FBFF1C71C7DDE5D00C7F256E520 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				7E504CF40EDABF5AA222A875D9BC7ACA /* CascadePreprocessor.swift in Sources */,
+				77B0A88DF25424192EB6B5BF4126595F /* CG+Hero.swift in Sources */,
+				B9F5BBA79C9EBDBA4CE8C5A880CBE225 /* ConditionalPreprocessor.swift in Sources */,
+				FABCE800A63BF5574D9A7A04E81E2F03 /* DefaultAnimationPreprocessor.swift in Sources */,
+				A99B729B07E3C22CA75E3A9D1C177E80 /* DispatchQueue+Hero.swift in Sources */,
+				49AE593D92F5CBE570CF41E38452EE5B /* Hero-dummy.m in Sources */,
+				9903452D1A2F79036069ED51C4E815B9 /* HeroAnimatorViewContext.swift in Sources */,
+				71161C45211D45B28515CB86A9E1802D /* HeroContext.swift in Sources */,
+				0A69B0DEFD6FD1733EE1947354C4405D /* HeroCoreAnimationViewContext.swift in Sources */,
+				CF845EB085D70097F1EB8773318B0CF1 /* HeroDebugPlugin.swift in Sources */,
+				E1004C8A59E38E2FEF3005D26DD274EA /* HeroDebugView.swift in Sources */,
+				9C2088FBF674C01D2BAF903FEF262A3C /* HeroDefaultAnimator.swift in Sources */,
+				3DD54CC124181B51D31CBD9B0F4168F7 /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				ED1C6E8669DC14BA45A27357DF7CEF6A /* HeroModifier.swift in Sources */,
+				7E505B7D4AAC3DB7FD9939C6180BF6EC /* HeroPlugin.swift in Sources */,
+				61B74C105955C9116ABD59E2863FD8D4 /* HeroProgressRunner.swift in Sources */,
+				EF7A5C637E0EBCDE614DB920809819B2 /* HeroStringConvertible.swift in Sources */,
+				204D3520639A613718C7CDE55BF72F08 /* HeroTargetState.swift in Sources */,
+				7CED6E6CC35E080E1F94D9556FB54516 /* HeroTransition+Animate.swift in Sources */,
+				5808A296321FB1C7BFDC15FCB88630B9 /* HeroTransition+Complete.swift in Sources */,
+				352F03C98B59DB3789040D4B0D5C378A /* HeroTransition+CustomTransition.swift in Sources */,
+				C67899E2E59EB7BBD1D068A3026E9BED /* HeroTransition+Interactive.swift in Sources */,
+				AF0A61424C9BF4646490D9BD1617E643 /* HeroTransition+Start.swift in Sources */,
+				027CA471A5342D9D831895410495EE51 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				56983408D1FF5A0551B0F06C72C448BD /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				6222A7FA01B835E09AAA4FA306164B35 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				3AE3FF8B91E9532FF99910BF956B9EE4 /* HeroTransition.swift in Sources */,
+				C642407E48D361352456FCFEBCC8ED42 /* HeroTransitionState.swift in Sources */,
+				F2EB55C94CA30419C27C11BC2C2BD535 /* HeroTypes.swift in Sources */,
+				AA8E9CFD62CDE580E7E1EC264551F38B /* HeroViewControllerDelegate.swift in Sources */,
+				563D01EC84967B65555F62D8CBB3E345 /* HeroViewPropertyViewContext.swift in Sources */,
+				747D046BF6CCD6B22DE448A319259F4E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				2CF3B69D4CB67F5879FE1DB227C9AF64 /* Lexer.swift in Sources */,
+				131BD0796B5EF130D3C7224265B5E8C1 /* MatchPreprocessor.swift in Sources */,
+				88E51695CDC001BC4F639B2A593F18C7 /* Nodes.swift in Sources */,
+				A795AE72B5EE8756ABF434D88933FC9B /* Parser.swift in Sources */,
+				0A449D9876FB5AABA25A730F95AC7A4D /* Regex.swift in Sources */,
+				97E12FCF1B28A57823ADD1E597654152 /* SourcePreprocessor.swift in Sources */,
+				8BC8035B9AB727C3410327F348C925A3 /* UIKit+Hero.swift in Sources */,
+				25D582C7BC726A599A9617E36F915713 /* UIView+Hero.swift in Sources */,
+				37192B729206BAF40E1D706F618E1382 /* UIViewController+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3D0AB6025A712B1E254BC35F309ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA99938F1EEA072FF32FA7F5F397D3 /* Pods-MMPullSwipeDismissTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8F494064AF0984144011DAACDE3704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDE65C78F8555B1A20FAA87AA7BB14B /* Pods-MMPullSwipeDismissUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CBA83BE005DE9A90816F73CD13329D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E21DA5E878DED25EF283EBD98E25A4 /* Pods-MMPullSwipeDismiss-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93F87575C8FAAFE7DC61FE5A585D4B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = 83C26A1A65032AB1408D01604F119111 /* Hero */;
+			targetProxy = 45372F8D4AD3A83B695AA1673CA17148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		276FBDDF8BE33F2E5603D0C14F86C108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5D83E34C21075FB5E79047B1FE2E2D /* Pods-MMPullSwipeDismissTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPullSwipeDismissTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPullSwipeDismissTests/Pods-MMPullSwipeDismissTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMPullSwipeDismissTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3455C835FBFE493B3D39B3FA312761D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB83410CAB470E1338F30DB5E370836 /* Pods-MMPullSwipeDismiss.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPullSwipeDismiss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPullSwipeDismiss/Pods-MMPullSwipeDismiss.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMPullSwipeDismiss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B133FB55EBA41B4FCE1A90784136828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56C7C78B36BD944D9B03BB73FEEEBAE /* Pods-MMPullSwipeDismissUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPullSwipeDismissUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPullSwipeDismissUITests/Pods-MMPullSwipeDismissUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMPullSwipeDismissUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DBCA8A7F8E03FE9066CCA6458C9AA7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364D3C1170C01347C0072721F68101B1 /* Pods-MMPullSwipeDismiss.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPullSwipeDismiss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPullSwipeDismiss/Pods-MMPullSwipeDismiss.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMPullSwipeDismiss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CE8CC916C282DF104965926513FCCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AD7BEDF588B5F9FBAA7EDC5D4B3D1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A6448379595CA230FD3052F2A4F155 /* Pods-MMPullSwipeDismissTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPullSwipeDismissTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPullSwipeDismissTests/Pods-MMPullSwipeDismissTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMPullSwipeDismissTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF55F6312A531B2F3F3496B10BDFC3E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F0CFFDD350A57E75090E57E3B1E143 /* Pods-MMPullSwipeDismissUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPullSwipeDismissUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPullSwipeDismissUITests/Pods-MMPullSwipeDismissUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMPullSwipeDismissUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C53729E7C92FDF18492B33B281E59FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655FD33CD684A7B2717D97198A919772 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB53A58618C1EBF4D82EAD16FB0D0233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655FD33CD684A7B2717D97198A919772 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE8CC916C282DF104965926513FCCF8 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55849D9C4FB2098DD33157A79AD13E5F /* Build configuration list for PBXNativeTarget "Pods-MMPullSwipeDismissUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF55F6312A531B2F3F3496B10BDFC3E5 /* Debug */,
+				4B133FB55EBA41B4FCE1A90784136828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08B0DE972D9D1786334E52667434BF7 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53729E7C92FDF18492B33B281E59FCC /* Debug */,
+				FB53A58618C1EBF4D82EAD16FB0D0233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5EDEB462E51AE59993FDF3713904381 /* Build configuration list for PBXNativeTarget "Pods-MMPullSwipeDismissTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD7BEDF588B5F9FBAA7EDC5D4B3D1E8 /* Debug */,
+				276FBDDF8BE33F2E5603D0C14F86C108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E912C0D5525EB3EDF3FDBF537276300E /* Build configuration list for PBXNativeTarget "Pods-MMPullSwipeDismiss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3455C835FBFE493B3D39B3FA312761D2 /* Debug */,
+				5DBCA8A7F8E03FE9066CCA6458C9AA7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
