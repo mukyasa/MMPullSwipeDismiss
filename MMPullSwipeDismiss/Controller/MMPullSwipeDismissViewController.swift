@@ -11,24 +11,22 @@ import Hero
 
 class MMPullSwipeDismissViewController: UITableViewController {
     
-    var panGR = UIPanGestureRecognizer()
+    var panGR : UIPanGestureRecognizer!
     var progressBool : Bool = false
+    var dismissBool : Bool = true
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib
-        let camera = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVc))
-        self.navigationItem.leftBarButtonItem = camera
         
-        if #available(iOS 11.0, *) {
-            self.navigationController?.navigationBar.prefersLargeTitles = true
-        } else {
-            // Fallback on earlier versions
-        }
-        panGR.addTarget(self, action: #selector(pan))
+        panGR = UIPanGestureRecognizer(target: self, action: #selector(pan))
         panGR.delegate = self
+        
         view.backgroundColor = UIColor.white
         view.addGestureRecognizer(panGR)
+        tableView.bouncesZoom = false
+
         
     }
 
@@ -38,7 +36,6 @@ class MMPullSwipeDismissViewController: UITableViewController {
     
 
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -47,6 +44,7 @@ class MMPullSwipeDismissViewController: UITableViewController {
     
 
 }
+
 
 extension MMPullSwipeDismissViewController : UIGestureRecognizerDelegate {
     
