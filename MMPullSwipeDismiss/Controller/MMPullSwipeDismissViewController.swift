@@ -21,6 +21,13 @@ class MMPullSwipeDismissViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib
         
         panGR = UIPanGestureRecognizer(target: self, action: #selector(pan))
+        
+        /*
+         Add navbar  to controller through storyboard and replace the selector method with panWithNavbar
+         
+         */
+//        panGR = UIPanGestureRecognizer(target: self, action: #selector(panWithNavbar))
+
         panGR.delegate = self
         
         view.backgroundColor = UIColor.white
