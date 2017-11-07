@@ -82,7 +82,7 @@ extension MMPullSwipeDismissViewController {
             if fabs(progressY + recognizer.velocity(in: nil).y / view.bounds.height ) > 0.5 {
                 Hero.shared.finish()
             }
-            else if progressX + recognizer.velocity(in: nil).x / view.bounds.width > 0.4 {
+            else if progressX + recognizer.velocity(in: nil).x / view.bounds.width > 0.5 {
                 Hero.shared.finish()
             }
             else {

@@ -64,6 +64,9 @@
 		8B3A7E421FADBD3E00D0CA10 /* PanExUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanExUtil.swift; sourceTree = "<group>"; };
 		8B3A7E441FADBD6800D0CA10 /* ScrollViewExUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExUtil.swift; sourceTree = "<group>"; };
 		8B3A7E481FADBDEA00D0CA10 /* PullSwipeExUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullSwipeExUtil.swift; sourceTree = "<group>"; };
+		8B3A7E4A1FB1D64100D0CA10 /* demomaster_swipedown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demomaster_swipedown.gif; sourceTree = "<group>"; };
+		8B3A7E4B1FB1D64100D0CA10 /* demomaster_swipealeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demomaster_swipealeft.gif; sourceTree = "<group>"; };
+		8B3A7E4C1FB1D64200D0CA10 /* demomaster_swipebup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demomaster_swipebup.gif; sourceTree = "<group>"; };
 		972A8B4484B26DDA6C7088B5 /* Pods-MMPullSwipeDismissTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPullSwipeDismissTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMPullSwipeDismissTests/Pods-MMPullSwipeDismissTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4EFC9453B1034C05F4C7A69 /* Pods_MMPullSwipeDismissTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMPullSwipeDismissTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80D4D9C89E26562FB047D0E /* Pods-MMPullSwipeDismiss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPullSwipeDismiss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMPullSwipeDismiss/Pods-MMPullSwipeDismiss.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,9 @@
 		8B3A7E111FAC505C00D0CA10 /* MMPullSwipeDismiss */ = {
 			isa = PBXGroup;
 			children = (
+				8B3A7E4B1FB1D64100D0CA10 /* demomaster_swipealeft.gif */,
+				8B3A7E4C1FB1D64200D0CA10 /* demomaster_swipebup.gif */,
+				8B3A7E4A1FB1D64100D0CA10 /* demomaster_swipedown.gif */,
 				8B3A7E121FAC505C00D0CA10 /* AppDelegate.swift */,
 				8B3A7E471FADBD8100D0CA10 /* Controller */,
 				8B3A7E161FAC505C00D0CA10 /* Main.storyboard */,

@@ -26,8 +26,28 @@ class MMPullSwipeDismissViewController: UITableViewController {
         view.backgroundColor = UIColor.white
         view.addGestureRecognizer(panGR)
         tableView.bouncesZoom = false
+        
+        headerView()
 
         
+    }
+    
+    func headerView(){
+        let header = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 84))
+        
+        let button:UIButton = UIButton(frame: CGRect(x: 20, y: 10, width: 50, height: 40))
+        button.setTitle("Back", for: .normal)
+        button.titleLabel?.textAlignment = .left
+        button.setTitleColor(UIColor.blue, for: .normal)
+        button.addTarget(self, action:#selector(dismissVc), for: .touchUpInside)
+        header.addSubview(button)
+        
+        let label = UILabel(frame: CGRect(x: 20, y: 50, width: 300, height: 44))
+        label.text = "Your Detail Page"
+        label.font = UIFont.boldSystemFont(ofSize: 30)
+        header.addSubview(label)
+        
+        tableView.tableHeaderView = header
     }
 
     @objc func dismissVc(){
