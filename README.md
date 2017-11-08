@@ -1,6 +1,6 @@
 # MMPullSwipeDismiss
 
-Facebook Like Swipe and Pull Dismiss Viewcontroller
+Facebook Like Swipe and On scroll Pull Dismiss Viewcontroller
 
 ### Medium Article on how to use this in your project
 https://medium.com/@mandoramuku07/how-to-create-facebook-like-swipe-pulltodismiss-5480b186f809
