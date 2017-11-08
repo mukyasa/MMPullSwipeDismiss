@@ -5,6 +5,12 @@ Facebook Like Swipe and Pull Dismiss Viewcontroller
 ### Medium Article on how to use this in your project
 https://medium.com/@mandoramuku07/how-to-create-facebook-like-swipe-pulltodismiss-5480b186f809
 
+Requirements
+-----------------
+* Swift 4.0+
+* Xcode 9
+* iOS 9.0+
+
 #### The demo also consist example with Navigation bar please check `PullSwipeExUtil` and `MMPullSwipeDismissViewController` file
 
 ## Demo Swipe Left
